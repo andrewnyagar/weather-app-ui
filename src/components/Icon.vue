@@ -1,15 +1,14 @@
 <template>
+  <div>
     <div>
-        <h1>Icon</h1>
+      <font-awesome-icon icon="sun" size="8x" />
     </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-
 </style>

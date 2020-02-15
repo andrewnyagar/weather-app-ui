@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>Header</h1>
+        <p class="display-4 text-center">Country</p>
+        <p class="lead text-center">description</p>
+
     </div>
 </template>
 
