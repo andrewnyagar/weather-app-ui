@@ -1,15 +1,28 @@
 <template>
-    <div>
-        <h1>Home</h1>
-    </div>
+  <div>
+    <Heading />
+    <Icon />
+    <Form />
+    <Detail />
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import Heading from "../components/Heading";
+import Icon from "../components/Icon";
+import Detail from "../components/Detail";
+import Form from "../components/Form";
+
+export default {
+  components: {
+    Heading,
+    Icon,
+    Detail,
+    Form
+  }
+};
 </script>
 
-<style lang="scss" scoped>
 
+<style lang="scss" scoped>
 </style>
